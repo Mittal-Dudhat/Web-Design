@@ -1,0 +1,111 @@
+/* --- menubar and front img div --- */
+
+.returninputdiv {
+	> div {
+		width: 50%;
+		float: left;
+	}
+}
+
+.returninputdiv {
+	>div {
+		~ {
+			div {
+				width: 50%;
+				float: right;
+			}
+		}
+	}
+}
+
+/* --- Card div compare,travel,join --- */
+ 
+.moreInfo 
+{
+    position:absolute;
+    top:1020px;
+    background-color: rgb(235, 237, 245);
+    width:100%;
+
+    > div{
+        padding-left: 150px;
+    }  
+}
+
+/* --- More Details div/ Woman img div --- */
+
+.divdiscount {
+	>img {
+		~ {
+			img {
+				padding-left: 0px;
+			}
+		}
+	}
+}
+
+/* --- FAQ div --- */
+
+.faqrightdiv {
+	>div {
+		border-radius: 20px;
+		background: white;
+		padding: 10px;
+		border: rgb(41, 128, 243) 1px solid;
+		height: 150px;
+	}
+}
+
+.faqrightdiv {
+	>div {
+		~ {
+			div {
+				border-radius: 10px;
+				background: white;
+				border: rgb(204, 199, 199) 0.2px solid;
+				border-width: thin;
+				padding: 10px;
+				height: 40px;
+			}
+		}
+	}
+}
+
+/* --- Footer div scss --- */
+
+.footerdiv {
+	+ {
+		p {
+			padding-left: 50px;
+		}
+	}
+    + {
+        div{
+            background-color: rgb(20, 156, 111);
+            width: 100%;
+            height: 50px;
+            color: white;
+            position: absolute;
+            top: 3060px;
+            padding-left: 150px;
+            padding-top: 20px;
+            text-align: left;
+        }
+    }
+}
+
+.footerdiv {
+	>.footerdivparts {
+		padding-left: 100px;
+	}
+}
+
+.footerdiv {
+	>.footerdivparts {
+		~ {
+			.footerdivparts {
+				padding-left: 0px;
+			}
+		}
+	}
+}

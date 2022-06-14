@@ -1,0 +1,14 @@
+a {
+    text-decoration: none;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+body{
+    font-family: calibri;
+}
+
+button{
+    cursor:pointer;
+}

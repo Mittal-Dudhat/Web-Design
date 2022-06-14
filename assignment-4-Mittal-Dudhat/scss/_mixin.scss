@@ -1,0 +1,17 @@
+@mixin blue-btn {
+    background-color: rgb(28, 77, 211);
+    color: #efefef;
+ }
+
+@mixin borderradius($radius){
+    border-radius: $radius;
+}
+
+@mixin button-colors($button-blue: true) {
+    color: $white-text;
+    @if $button-blue {
+      background-color: $blue-background;    // variables used
+    } @else {
+      background-color: $green-background;
+    }
+  }

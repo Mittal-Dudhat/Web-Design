@@ -1,0 +1,15 @@
+@function getindex($base, $limit) {
+    $index: 1;
+    @for $number from 1 through $limit {
+      $index: $index * $base;
+    }
+    @return $index;
+}
+
+@function sumofnumbers($numbers...) {
+    $sum: 0;
+    @each $number in $numbers {
+      $sum: $sum + $number;
+    }
+    @return $sum;
+}

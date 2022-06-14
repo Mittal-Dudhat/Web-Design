@@ -1,0 +1,20 @@
+@import 'functions';
+
+.textcolor{
+    color:black;
+}
+
+.navmenubar { 
+    a {
+        @extend .textcolor;
+        font-family: calibri;
+        padding: sumofnumbers(5px,3px,2px); // function used
+        font-weight: bold;
+    }
+}
+    
+
+
+
+
+        

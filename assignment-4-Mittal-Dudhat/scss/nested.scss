@@ -1,0 +1,453 @@
+@import 'functions';
+/* --- menubar and front img div --- */
+.topbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 500+505;  //Math operation used
+    background-color: white;
+    width:100%;
+
+    .menubar{
+        float:right;
+        width:45%;
+    }
+}
+
+.navmenubar { 
+    div{
+        float:right; 
+        margin-right: 50px;
+    }
+    
+    button {
+        @include borderradius(15px);  // Mixin used
+        @include  blue-btn; 
+        width:80px;
+        height:6px*5;
+    }
+    [data="bottommenu"]
+    {
+        color:black;
+        font-family: calibri;
+        padding: sumofnumbers(5px,3px,2px);  // function used
+    }
+}  
+
+.formbackground{
+    background-color:white;
+    position:absolute;
+    top: 160px;
+    left: 220px;
+    height:430px;
+    @include borderradius(30px);  //Mixin used
+
+    .returninputdiv{
+        background-color: white; 
+        position: absolute;
+        top: 190px;
+        width: 89%;
+        padding-top: 10px;
+        left:35px;
+    }
+    [name="station"]
+    {
+        width:233px;
+    }
+}
+
+.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    margin-top:40px;
+
+    .trainimg{
+        position:absolute;
+        top:343px;
+        left:670px;
+    }
+
+    [alt="backgroundimg"]
+    {
+        margin-left: 280px;
+        width:750px;
+        margin-top:20px;
+    }
+
+    [alt^= "platform"]
+    {
+        margin-left: 280px;
+        opacity:0.8;
+        top:-502px;
+        position:relative;
+    }
+} 
+
+.form-menubgcolor {
+    @include  blue-btn; 
+    @include borderradius(15px);   // Mixin used
+    height:20px;
+    padding:15px;
+
+    input{
+        @include borderradius(4px);
+        @include button-colors($button-blue: false);  //  mixin with if else 
+        border: none;
+        text-align: center;
+        padding: px 20px;
+    }
+    a {
+        color:white;
+    }
+}
+
+.absolute {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+
+    div{
+        top: 67px;
+        position: absolute;
+        left: 550px;
+        width:500px;
+        color:white;
+    }
+
+    button{
+        @include borderradius(30px);
+        @include button-colors($button-blue: false);  //  mixin with if else 
+        //background-color: #188678;
+        color: #efefef;
+        border: none;
+        text-align: center;
+        padding: 10px 20px;
+        border:white 1px solid;
+    }
+}
+
+.addpassanger {
+    padding-top:20px;
+
+    select{
+        width:400px
+    }
+}
+
+.leftform {
+    padding: 40px;
+    color: black;
+    font-weight: bold;
+    width:412px;
+
+    button{
+        @include  blue-btn;         // Mixin used
+        @include borderradius(5px);
+        padding:10px;
+        width:400px;
+    }
+    input, select {
+        @include borderradius(sumofnumbers(2px,2px));  // Mixin and function together 
+        padding:8px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+}
+
+/* --- div liverpool --- */
+.centered {
+    position: absolute;
+    top: 92%;
+    left: 40%;
+    color:white;
+
+    span{
+        font-size: 18px;
+    }
+}
+
+ .liverpoolleftdiv {
+    width:55%;
+    float:left;
+    margin-top:15px;
+
+    span{
+        font-size: 15px;
+    }
+}
+
+.divliverpool{
+    position: relative;
+    top: 415px;
+    width:900px;
+    margin-left:272px;
+
+    .liverpoolcardcolumn{
+        float: left;
+        width: 31%;
+        padding: 0 10px; 
+
+        .liverpoolcard {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: #f1f1f1;
+            height: 200px;
+
+            .liverpoolrightdiv{
+                width:45%;
+                float:left;
+                padding-top:15px;
+                
+                [data^="left"]{
+                    float:left;
+                    @include button-colors($button-blue: true);  // mixin with if else used
+                    width:30%;
+                    height:30px;
+                    padding:3px;
+                }
+                
+                [data^="right"]{
+                    float:right;
+                    width:60%; 
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    [alt="dots"]{
+        padding-top:15px;
+    }
+
+    .imgcenter{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;;
+    }
+    
+    .cardroundbutton{
+        @include  blue-btn; 
+        @include borderradius(30px);     
+        border: none;
+        text-align: center;
+        padding: 10px 20px;
+        width:150px;
+        height:50px; 
+    }
+    
+}
+
+/* --- card div compare,trave,join --- */
+
+.cardcolumn {
+    float: left;
+    width: 200px;
+    padding: 0 10px; 
+    height:240px; 
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 16px;
+        text-align: center;
+        background-color: #f1f1f1;
+        height: 158px;
+        margin-top: 30px;
+
+        [alt="round"]{
+            width:55px;
+        }
+
+        [alt="join"]
+        {
+            width:45px;
+            position: absolute;
+            left:681px;
+            top:56px;
+        }
+
+        [alt="train"]
+        {
+            width:35px;
+            position: absolute;
+            left:463px;
+            top:56px;
+        }
+
+        [alt="support"]
+        {
+            width:35px;
+            position: absolute;
+            left:903px;
+            top:56px;
+        }
+
+        [alt="customer"]
+        {
+            width:35px;
+            position: absolute;
+            left:1123px;
+            top:56px;
+        }
+    }
+}
+
+/* --- More Details div/ Woman img div --- */
+.divdiscount 
+{   
+    position:relative;
+    top:780px;
+    left:50px;
+
+    > img {
+        padding-left: 115px; 
+    }
+    button{
+        @include borderradius(30px);
+        background-color: white;
+        color: #0ec799e1;
+        border: none;
+        text-align: center;
+        padding: 10px 20px;
+        width:200px;
+        font-weight: bold;
+    }
+    div{
+        color:white;
+        font-weight: bold;
+        float:left;
+        padding: 30px;
+        z-index: 1001;
+        position: absolute;
+        top:25px;
+        left:170px;
+    }
+
+    [alt="womanimg"]{
+        float:right;
+        position: absolute;
+        z-index: 1001;
+        right:275px;
+        bottom:5px
+    }
+    
+    [alt^="green"]{
+        position: absolute;
+        left: 120px;
+        z-index: getindex(10,3); // GetIndex Function used
+        padding-left: 15px;
+    }
+    
+    [alt$="train2"]{
+        float:right;
+        position: absolute;
+        z-index: 1001;
+        right:500px;
+        bottom:40px;
+    }
+    
+    [alt*="circle"]{
+        height: 120px;
+        float: right;
+        z-index: 1001;
+        right:334px;
+        position:absolute;
+    }
+    
+    [alt="whitecircle"]{
+        bottom:205px;
+    }
+    
+    [alt="greycircle"]{
+        bottom:35px;
+    }
+    
+    [alt="dotimg"]{
+        float:right;
+        position: absolute;
+        z-index: 1001;
+        right:550px;
+        bottom:220px
+    }
+}
+
+/* --- FAQ div --- */
+
+.faqrightdiv{
+    width: 50%;
+    float:right; 
+    padding-right: 10px;
+
+    span{
+        float:right;
+    }
+    p{
+        font-size: 14px;
+     }
+}
+
+.faqleftdiv{
+    width: 40%; 
+    float:left; 
+    padding-left: 50px;
+
+    img{
+        padding-left: 60px;
+     }
+}
+
+/* --- begin mobile div css --- */
+
+.mobileimgdiv{
+    position:relative;
+    top:835px;
+    width:70%;
+    padding-left:150px;
+
+    .divmobileleft{
+        width: 55%; 
+        float:left; 
+        padding-left:20px
+    }
+
+    .divmobileright{
+        width: 40%; 
+        float:right;
+    }
+
+    .divfrontback {
+        float:right;
+        position: relative;
+        left:850px;
+        width:100%;
+    
+        img{
+            width:50px;
+        }
+    }
+}
+
+/* --- Footer div scss --- */
+
+.footerdiv {
+    background-color: $base-color;   //variables used
+    width: 100%;
+    height: 500px;
+    color: white;
+    position: absolute;
+    top: 2625px;
+    padding-left:50px;
+
+	.footerdivparts {
+        float: left;
+        width: 25%;
+        padding: 0 10px; 
+        a{
+            color:white;
+        }
+    }
+}

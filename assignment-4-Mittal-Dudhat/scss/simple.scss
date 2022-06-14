@@ -1,0 +1,25 @@
+ /* ---attribute menubar front img div --- */
+[alt="imggreenline"]
+{
+    margin-left:150px
+}
+
+/* --- FAQ div --- */
+.flexcontainer{
+    position:relative;
+    top:820px;
+    width:75%;
+    padding-left:140px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* --- Footer div scss --- */
+.footerdiv {
+	&::first-line {
+		font-size: 20px;
+	}
+}
+
+
+
