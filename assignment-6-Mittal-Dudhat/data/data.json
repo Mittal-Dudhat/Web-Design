@@ -1,0 +1,19 @@
+[
+    {
+        "id" : 1,
+        "title": "Complete Assignment 1 of AED",
+        "description": "It is very important assignment",
+        "due_date": "15th Oct 2021",
+        "due_time": "12:00 AM",
+        "status" : "open"  
+    },
+
+    {
+        "id" : 2,
+        "title": "Code Review of Web design",
+        "description": "have to clone and check code before code review",
+        "due_date": "20th Oct 2022",
+        "due_time": "1:00 PM",
+        "status" : "open"  
+    }
+]
