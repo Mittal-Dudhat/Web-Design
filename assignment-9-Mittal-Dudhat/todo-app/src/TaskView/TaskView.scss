@@ -1,0 +1,43 @@
+ul{
+    list-style: none;
+}
+.delete-img{
+    margin-bottom: -6px;
+}
+.task-view-div{
+    display: flex;
+    padding: 25px;
+}
+.task-details{
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom: 30px;
+    background-color:lightgray;
+    width:350px;
+    border-radius: 10px;
+    div{
+        font-weight: bold;
+        padding: 7px 0;
+    }
+}
+.listdiv{
+    width:35%;
+}
+.header{
+    text-align: center;
+}
+.title{
+    display: inline-block;
+    width: 105px;
+    span{
+        font-weight: 100 !important;
+    }
+}
+.titleview{
+    display: inline-block
+}
+.taskheader{
+    text-align: center;
+    text-decoration: underline;
+}
+
