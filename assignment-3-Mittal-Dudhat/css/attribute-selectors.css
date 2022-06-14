@@ -1,0 +1,144 @@
+/* --- div discount woman img div --- */
+[alt="womanimg"]{
+    float:right;
+    position: absolute;
+    z-index: 1001;
+    right:275px;
+    bottom:5px
+}
+
+[alt^="green"]{
+    position: absolute;
+    left: 120px;
+    z-index: 1000;
+    padding-left: 15px;
+}
+
+[alt$="train2"]{
+    float:right;
+    position: absolute;
+    z-index: 1001;
+    right:500px;
+    bottom:40px;
+}
+
+[alt*="circle"]{
+    height: 120px;
+    float: right;
+    z-index: 1001;
+    right:334px;
+    position:absolute;
+}
+
+[alt="whitecircle"]{
+    bottom:205px;
+}
+
+[alt="greycircle"]{
+    bottom:35px;
+}
+
+[alt="dotimg"]{
+    float:right;
+    position: absolute;
+    z-index: 1001;
+    right:550px;
+    bottom:220px
+}
+
+/* --- card view div --- */
+[alt="round"]{
+    width:55px;
+}
+
+[alt="tick"]
+{
+    width:35px;
+    position: absolute;
+    left:243px;
+    top:56px; 
+}
+
+[alt="train"]
+{
+    width:35px;
+    position: absolute;
+    left:463px;
+    top:56px; 
+}
+
+[alt="join"]
+{
+    width:45px;
+    position: absolute;
+    left:681px;
+    top:56px;
+}
+
+[alt="support"]
+{
+    width:35px;
+    position: absolute;
+    left:903px;
+    top:56px;
+}
+
+[alt="customer"]
+{
+    width:35px;
+    position: absolute;
+    left:1123px;
+    top:56px;
+}
+
+/* --- liverpool div --- */
+[alt="dots"]{
+    padding-top:15px;
+}
+
+[data^="left"]{
+    float:left;
+    background-color: rgb(46 92 223);
+    color:white;
+    width:30%;
+    height:30px;
+    padding:3px;
+}
+
+[data^="right"]{
+    float:right;
+    width:60%; 
+    font-size: 10px;
+}
+
+/* --- menubar front img div --- */
+[alt="imggreenline"]
+{
+    margin-left:150px
+}
+
+[data="bottommenu"]
+{
+    color:black;
+    font-family: calibri;
+    padding: 10px;
+}
+
+[alt="backgroundimg"]
+{
+    margin-left: 280px;
+    width:750px;
+}
+
+[alt^= "platform"]
+{
+    margin-left: 280px;
+    opacity:0.8;
+    top:-502px;
+    position:relative;
+}
+
+[name="station"]
+{
+    width:233px;
+}

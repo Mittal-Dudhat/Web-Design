@@ -1,0 +1,218 @@
+/* --- begin Footer div css --- */
+
+.footerdiv {
+    background-color: rgb(76, 177, 143);
+    width: 100%;
+    height: 500px;
+    color: white;
+    position: absolute;
+    top: 2550px;
+    padding-left:50px;
+}
+
+.footerdivparts{
+    float: left;
+    width: 25%;
+    padding: 0 10px; 
+}
+
+/* --- begin mobile div css --- */
+.mobileimgdiv{
+    position:relative;
+    top:735px;
+    width:70%;
+    padding-left:150px;
+}
+
+.divfrontback{
+    float:right;
+    position: relative;
+    left:850px;
+    width:100%;
+}
+
+.divmobileleft{
+    width: 55%; 
+    float:left; 
+    padding-left:20px
+}
+
+.divmobileright{
+    width: 40%; 
+    float:right;
+}
+
+/* --- FAQ div --- */
+
+.divhelp{
+    position:relative;
+    top:720px;
+    width:75%;
+    padding-left:140px;
+}
+
+.faqrightdiv{
+    width: 50%;
+    float:right; 
+    padding-right: 10px;
+}
+
+.faqleftdiv{
+    width: 40%; 
+    float:left; 
+    padding-left: 50px;
+}
+
+/* --- More Details div/ Woman img div --- */
+.divdiscount{
+    position:relative;
+    top:690px;
+    left:50px;
+}
+
+/* --- card div compare,trave,join --- */
+.moreInfo 
+{
+    position:absolute;
+    top:1000px;
+    background-color: rgb(235, 237, 245);
+    width:100%;
+} 
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 158px;
+    margin-top: 30px;
+}
+
+.cardcolumn {
+    float: left;
+    width: 200px;
+    padding: 0 10px; 
+    height:240px; 
+}
+
+/* --- div liverpool --- */
+.divliverpool{
+    position: relative;
+    top: 380px;
+    width:900px;
+    margin-left:272px;
+}
+
+.liverpoolcard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 200px;
+}
+
+.liverpoolcardcolumn{
+    float: left;
+    width: 31%;
+    padding: 0 10px; 
+}
+
+.imgcenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;;
+}
+.centered {
+    position: absolute;
+    top: 92%;
+    left: 40%;
+    color:white;
+}
+
+.liverpoolleftdiv{
+    width:55%;
+    float:left;
+    margin-top:15px;
+}
+
+.liverpoolrightdiv{
+    width:45%;
+    float:left;
+    padding-top:15px;
+}
+
+.cardroundbutton{
+    background-color: rgb(28, 77, 211);
+    color: #efefef;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width:200px;
+    height:50px; 
+}
+
+/* --- Menu bar and front img div --- */
+
+input, select {
+    padding:8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.menubar{
+    float:right;
+    width:45%;
+}
+
+.leftform {
+    padding: 40px;
+    color: black;
+    font-weight: bold;
+    width:412px
+ }
+
+.form-menubgcolor{
+    background-color: rgb(28, 77, 211);
+    height:20px;
+    padding:15px;
+    border-radius: 15px;
+}
+.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+} 
+.absolute {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+}
+.trainimg{
+    position:absolute;
+    top:343px;
+    left:670px;
+}
+.formbackground{
+    background-color:white;
+    position:absolute;
+    top: 160px;
+    left: 220px;
+    height:430px;
+    border-radius:30px;
+}
+.addpassanger{
+    padding-top:20px;
+}
+.returninputdiv{
+    background-color: white; 
+    position: absolute;
+    top: 190px;
+    width: 89%;
+    padding-top: 10px;
+    left:35px;
+}

@@ -1,0 +1,15 @@
+/* --- begin Footer div css --- */
+
+.footerdiv::first-line {
+    font-size: 20px;
+}
+
+::selection {
+    color: rgb(14, 12, 12);
+    background: #00ffdd;
+}
+
+a:hover{
+    cursor:pointer;
+}
+/* --- begin mobile div css --- */

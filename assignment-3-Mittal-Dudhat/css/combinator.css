@@ -1,0 +1,180 @@
+/* --- begin Footer div css --- */
+
+.footerdiv + p {
+    padding-left:50px;
+}
+
+.footerdiv > .footerdivparts {
+   padding-left: 100px;
+}
+
+.footerdiv > .footerdivparts ~ .footerdivparts {
+    padding-left: 0px;
+}
+
+.footerdiv + div{
+    background-color: rgb(20, 156, 111);
+    width: 100%;
+    height: 50px;
+    color: white;
+    position: absolute;
+    top: 3000px;
+    padding-left: 150px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+/* --- begin mobile div css --- */
+.divfrontback img{
+    width:50px;
+}
+
+/* --- FAQ div --- */
+.faqrightdiv > div {
+    border-radius: 20px;
+    background:white;
+    padding: 10px;
+    border:rgb(41, 128, 243) 1px solid;
+    height:150px
+ }
+ 
+ .faqrightdiv > div ~ div {
+    border-radius: 10px;
+    background:white;
+    border:rgb(204, 199, 199) 0.2px solid;
+    border-width:thin;
+    padding:10px;
+    height:40px
+ }
+
+ .faqrightdiv span{
+     float:right;
+ }
+
+ .faqrightdiv p{
+    font-size: 14px;
+ }
+
+ .faqleftdiv img{
+    padding-left: 60px;
+ }
+
+ /* --- more details div --- */
+ .divdiscount > img {
+    padding-left: 115px; 
+ }
+ 
+ .divdiscount > img ~ img {
+    padding-left:0px;
+ }
+
+ .divdiscount button{
+    background-color: white;
+    color: #0ec799e1;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width:200px;
+    font-weight: bold;
+ }
+
+ .divdiscount div{
+    color:white;
+    font-weight: bold;
+    float:left;
+    padding: 30px;
+    z-index: 1001;
+    position: absolute;
+    top:25px;
+    left:170px;
+ }
+
+ /* --- Card div compare,travel,join --- */
+ .moreInfo > div{
+    padding-left: 150px;
+ }
+
+ /* --- div liverpool --- */
+ .centered span{
+    font-size: 18px;
+ }
+
+ .liverpoolleftdiv span{
+    font-size: 15px;
+ }
+
+ /* --- menubar and front img div --- */
+ .navmenubar div{
+    float:right; 
+    margin-right: 50px
+}
+
+.navmenubar a {
+    color:black;
+    font-family: calibri;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.form-menubgcolor a{
+    color:white;
+    text-decoration: none;;
+}
+
+.navmenubar button {
+    border-radius: 15px;
+    color:#fff;
+    background-color:#003F87;
+    width:80px;
+    height:30px
+}
+
+.absolute div{
+    top: 67px;
+    position: absolute;
+    left: 550px;
+    width:500px;
+    color:white;
+}
+
+.absolute button{
+    background-color: #188678;
+    color: #efefef;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border:white 1px solid;
+}
+
+.form-menubgcolor input{
+    background-color: #188678;
+    color: #efefef;
+    border: none;
+    text-align: center;
+    padding: px 20px;
+    border-radius: 30px;
+}
+
+.addpassanger select{
+    width:400px
+}
+
+.leftform button{
+    background-color: rgb(46 92 223);
+    color: white;
+    border-radius:5px;
+    padding:10px;
+    width:400px;
+}
+
+.returninputdiv > div {
+    width:50%; 
+    float:left;
+ }
+ 
+ .returninputdiv > div ~ div {
+    width:50%;
+    float: right;
+ }
