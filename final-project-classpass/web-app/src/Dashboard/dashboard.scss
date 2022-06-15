@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    align-items: center;
+    width:100%;
+  }
+
+.descriptionPara{
+    padding-left:50px;
+}
+
+.classes-div{
+  margin-top: 190%;
+}
+
+.registerbtn{
+  border-radius: 12px;
+  // color:white;
+  color: white;
+  width: 200px;
+  height: 30px;
+  // background-color:#003F87;
+  background-color: #003F87;
+  font-size:12px;
+  border:0;
+  cursor:pointer;
+  margin-top: 15px;
+  // font-family:Verdana, Geneva, Tahoma, sans-serif;  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold; 
+  display: inline-block;
+}
+
+#register{
+  border-radius: 12px;
+  // color:white;
+  color: white;
+  width: 200px;
+  height: 30px;
+  // background-color:#003F87;
+  background-color: #003F87;
+  font-size:12px;
+  border:0;
+  cursor:pointer;
+  margin-top: 15px;
+  // font-family:Verdana, Geneva, Tahoma, sans-serif;  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold; 
+  display: inline-block;
+}
+
+.closebtn{
+    border-radius: 12px;
+  // color:white;
+  color: white;
+  width: 200px;
+  height: 30px;
+  // background-color:#003F87;
+  background-color: #d6a64d;
+  font-size:12px;
+  border:0;
+  cursor:pointer;
+  margin-top: 15px;
+  // font-family:Verdana, Geneva, Tahoma, sans-serif;  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold; 
+  display: inline-block;
+}

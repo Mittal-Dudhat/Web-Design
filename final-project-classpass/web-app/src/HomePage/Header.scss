@@ -1,0 +1,46 @@
+.landingNav{
+    height: 55px;
+    width: 100%;
+    background-image: linear-gradient(#fcf5f5, #eff4fd);
+    color: white;
+}
+
+.fixed-top{
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index:1030
+}
+
+.loginDiv{
+    margin-top: -45px;
+    float: right;
+}
+
+.loginBtn{
+    background-color: #0C1636;
+    font-family: Brown LL,Arial,Helvetica,sans-serif;
+    font-size:  15px;
+    margin-right: 15px;
+    border-radius: 30px;
+    border-color: white;
+    border-width: 3.5px;
+    color: white;
+    padding: 5px;
+}
+
+.SignUp{
+    background: #ea927a;
+    font-size:  15px;
+    margin-right: 15px;
+    border-radius: 30px;
+    border-color: white;
+    border-width: 3.5px;
+    color: white;
+    padding: 5px;
+}
+
+.landing-name{
+    color: black;
+}

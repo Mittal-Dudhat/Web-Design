@@ -1,0 +1,89 @@
+.askQuery{
+    background-image: linear-gradient(#fcf5f5, #eff4fd);
+    text-align: center;
+    margin-top:-230px;
+}
+
+.flexbox-containerask{
+    display:flex;
+    justify-content: space-around;
+    padding: 30px;
+    height: 230px;
+    background-image: linear-gradient(#fcf5f5, #eff4fd);
+
+    .askqfooter{
+        width: 117%;
+        height: 100px;
+        padding-top: 35px;
+        margin-left: -9%;
+
+        .footer{
+            width: 117%;
+            height: 100px;
+            padding-top: 35px;
+            margin-left: -9%;
+        }
+
+    }
+    // align-items: center;
+  
+    .flexbox-signupask1
+    {
+        width: 60%;
+        margin-left: -186px;
+        a{
+            text-decoration:none ;
+        }
+        display: inline-block;
+    
+        .btnCTAButton{
+            border-radius: 12px;
+            // color:white;
+            color: white;
+            width: 200px;
+            height: 30px;
+            // background-color:#003F87;
+            background-color: #003F87;
+            font-size:12px;
+            border:0;
+            cursor:pointer;
+            margin-top: 15px;
+            // font-family:Verdana, Geneva, Tahoma, sans-serif;  
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold; 
+            display: inline-block;
+        }
+    }
+    .flexbox-signupask2
+    {
+        width: 102%;
+        padding-left:80px;
+        text-align: center;
+        margin-right: 240px;
+        a{
+            text-decoration:none ;
+        }
+        display: inline-block;
+    }
+  }
+  
+  
+
+.querybtn{
+    border-radius: 12px;
+            // color:white;
+            color: white;
+            width: 200px;
+            height: 30px;
+            // background-color:#003F87;
+            background-color: #003F87;
+            font-size:12px;
+            border:0;
+            cursor:pointer;
+            margin-top: 15px;
+            // font-family:Verdana, Geneva, Tahoma, sans-serif;  
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold; 
+            display: inline-block;
+            margin-left: 6px;
+}

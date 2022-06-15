@@ -1,0 +1,124 @@
+@import '../Login/variables.scss';
+
+.containersi {
+  display: flex;
+  margin-top: 10%;  
+  margin-left: 0px;
+  margin-right: 500px;
+  align-items: center; 
+  justify-content: center;
+  font-family: Montserrat;
+}
+
+.image-signupicon{
+  margin-bottom: 60px;
+
+}
+
+// .signup-img-logo{
+//   height: 158px;
+//   width: 327px;
+//   display: flex;
+//   margin-bottom: 734px;
+//   margin-right: -319px;
+// }
+
+.flexbox-containersignup{
+  display:flex;
+  justify-content: space-around;
+  padding-left: 30px;
+  height: 230px;
+  background-image: linear-gradient(#fcf5f5, #eff4fd);
+  // align-items: center;
+
+  .flexbox-signup1
+  {
+      width: 60%;
+      a{
+          text-decoration:none ;
+      }
+      display: inline-block;
+  
+      .btnCTAButton{
+          border-radius: 12px;
+          // color:white;
+          color: white;
+          width: 200px;
+          height: 30px;
+          // background-color:#003F87;
+          background-color: #003F87;
+          font-size:12px;
+          border:0;
+          cursor:pointer;
+          margin-top: 15px;
+          // font-family:Verdana, Geneva, Tahoma, sans-serif;  
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-weight: bold; 
+          display: inline-block;
+      }
+  }
+  .flexbox-signup2
+  {
+      width: 40%;
+      text-align: center;
+      a{
+          text-decoration:none ;
+      }
+      display: inline-block;
+  }
+}
+
+
+
+
+.signup{
+    display: flex;
+    margin-top: 10%;  
+    align-items: center; 
+    justify-content: center;
+    background-image: linear-gradient(#fcf5f5, #eff4fd);
+  }
+  .signup-form .title-styling {
+    font-size: 15px;
+    color: #99A4C1
+  }
+  .signup-form label{
+    font-size: 22px;
+  }
+  .signup-form input{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .signup-form .btn{
+    /* padding: 25px; */
+  margin-top: 10px;
+    font-size: 20px;
+    background: #FF652F;
+    color: white;
+  }
+  .signup-img-logo{
+    height: 158px;
+    width: 327px;
+    display: flex;
+    margin-bottom: 630px;
+    margin-right: -319px;
+  }
+  .signup-feature{
+    // background-image: url($backgroundimageurl);
+    background-image: '../../images/loginlogo.png';
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.btn{
+  background-color: #0C1636;
+    font-family: Brown LL,Arial,Helvetica,sans-serif;
+    font-size:  15px;
+    border-radius: 30px;
+    border-color: white;
+    border-width: 3.5px;
+    color: white;
+    padding: 5px;
+}

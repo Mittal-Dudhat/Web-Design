@@ -1,0 +1,88 @@
+.body{
+    margin-top: -44px;
+}
+
+.homepage-header{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #2696E9;
+  }
+
+  .home video{
+    z-index: 000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .video-slide{
+    position: absolute;
+    width: 100%;
+    clip-path: circle(0% at 0 50%);
+  }
+
+  .video-slide.active{
+    clip-path: circle(150% at 0 50%);
+    transition: 2s ease;
+    transition-property: clip-path;
+  }
+
+  .flexbox-container{
+    display:flex;
+    justify-content: space-around;
+    padding: 30px;
+    height: 230px;
+    background-image: linear-gradient(#fcf5f5, #eff4fd);
+
+    .flexbox-item1
+    {
+        width: 60%;
+        a{
+            text-decoration:none ;
+        }
+        display: inline-block;
+    
+        .btnCTAButton{
+            border-radius: 12px;
+            // color:white;
+            color: white;
+            width: 200px;
+            height: 30px;
+            // background-color:#003F87;
+            background-color: #003F87;
+            font-size:12px;
+            border:0;
+            cursor:pointer;
+            margin-top: 15px;
+            // font-family:Verdana, Geneva, Tahoma, sans-serif;  
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold; 
+            display: inline-block;
+        }
+    }
+    .flexbox-item2
+    {
+        width: 40%;
+        text-align: center;
+        a{
+            text-decoration:none ;
+        }
+        display: inline-block;
+    }
+}
+
+.chooseClasspass{
+    text-align: center;
+}
